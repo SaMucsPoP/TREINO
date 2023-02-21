@@ -39,15 +39,33 @@
         </section>
         <section>
             <div>
-                <img src="" alt="criaruser">
+                <img src="img/userCreate.png" alt="criaruser">
             </div>
-            <h1>Criar conta</h1>
+            <h1>Criar conta!</h1>
             <form action="" autocomplete="" method="post">
                 <div>
                     <label for="Inome">Nome</label>
-                    <input type="text" name="Nome" id="Inome" placeholder="Coloque seu nome">
-                    <img src="img/locke.png" alt="criauserform">
+                    <input type="text" name="Nome" id="Inome" placeholder="Coloque seu nome" required minlength="8" maxlength="20">
+                    <img src="img/usernameCreate.png" alt="criauserform">
                 </div>
+                <div>
+                    <label for="Imail">E-mail</label>
+                    <input type="email" name="Email" id="Imail" placeholder="coloque seu e-mail">
+                    <img src="img/envelope.png" alt="mailimage">
+                </div>
+                <div>
+                    <label for="Isenha">Senha</label>
+                    <input type="password" name="senha" id="Isenha" placeholder="Coloque sua senha" re>
+                    <img src="img/lock.png" alt="putsenha">
+                    <input type="checkbox" name="msenha" id="Msenha" onclick="mostrarOcultarSenha()">
+                    <label for="Msenha">Mostrar senha?</label>
+                </div>
+                <input type="submit" value="Criar">
+                <footer>
+                    Ou crie sua conta através de suas redes sociais
+                </footer>
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/twitter.png" alt="twiter">
             </form>
         </section>
     </main>
@@ -64,6 +82,16 @@
         else{
             password.setAttribute('type','password');
             icon.classList.remove('hide')
+        }
+    }
+</script>
+<script>
+    function mostrarOcultarSenha(){
+        var senha=document.getElementById('Isenha');
+        if(Isenha.type=="password"){
+            Isenha.type="text";
+        }else{
+            Isenha.type="password";
         }
     }
 </script>
