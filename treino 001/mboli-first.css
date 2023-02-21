@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+#icon{
+    cursor: pointer;
+}
+#icon.hide{
+    background: url(img/hidden.png);
+    cursor: pointer;
+}

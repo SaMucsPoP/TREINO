@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie sua conta</title>
+    <link rel="stylesheet" href="mboli-first.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div id="formulario">
+                <h1>Bem-vindo</h1>
+                <p>Faça login na sua conta</p>
+                <form action="" autocomplete="on" method="post">
+                    
+                    <div>
+                        <label for="inome">Nome</label>
+                        <input type="text" name="nome" id="inome" minlength="8" maxlength="20" placeholder="Coloque seu nome" required>
+                        <label for="inome"><img src="img/user.png" alt=""></label>
+                    </div>
+                    <div>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" min="8" max="25" placeholder="Insira sua senha">
+                        <div><img id="icon" onclick="showHidden()" src="img/view.png" alt=""></div>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="lemb" id="ilemb">
+                        <label for="ilemb">Lembrar de mim?</label>
+                    </div>
+                    <a href="">Esqueceu a senha?</a>
+                    <input type="submit" value="Entrar">
+            </div>
+            </form>
+        </section>
+        <section>
+            <div>
+                <img src="" alt="criaruser">
+            </div>
+            <h1>Criar conta</h1>
+            <form action="" autocomplete="" method="post">
+                <div>
+                    <label for="Inome">Nome</label>
+                    <input type="text" name="Nome" id="Inome" placeholder="Coloque seu nome">
+                    <img src="img/locke.png" alt="criauserform">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+<script>
+    const password = document.getElementById('isenha');
+    const icon = document.getElementById('icon');
+
+    function showHidden(){
+        if(password.type == 'password'){
+            password.setAttribute('type','text');
+            icon.classList.add('hide')
+        }
+        else{
+            password.setAttribute('type','password');
+            icon.classList.remove('hide')
+        }
+    }
+</script>
+</html>
