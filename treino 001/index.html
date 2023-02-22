@@ -9,23 +9,23 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="login">
             
             <div id="conta">
-                <div>
-                    <img src="img/chevron.png" alt="">
+                <div id="image">
+                    
                 </div>
-                <h1>Bem-vindo</h1>
+                <h1>Bem-vindo!</h1>
                 <p>Faça login na sua conta</p>
                 <form action="" autocomplete="on" method="post">
                     
-                    <div>
-                        <label for="inome">Nome</label>
+                    <div id="nome_login">
+                       
                         <input type="text" name="nome" id="inome" minlength="8" maxlength="20" placeholder="Coloque seu nome" required>
-                        <label for="inome"><img src="img/user.png" alt=""></label>
+                        <label for="inome"><img src="img/user.png" id="user_login" alt="userlogin"></label>
                     </div>
-                    <div>
-                        <label for="isenha">Senha</label>
+                    <div id="senha_login">
+                        
                         <input type="password" name="senha" id="isenha" min="8" max="25" placeholder="Insira sua senha">
                         <div><img id="icon" onclick="showHidden()" src="img/view.png" alt=""></div>
                     </div>
@@ -38,7 +38,7 @@
             </div>
             </form>
         </section>
-        <section>
+        <section id="signin">
             <div id="criar_conta">
                 <div>
                     <img src="img/userCreate.png" alt="criaruser">

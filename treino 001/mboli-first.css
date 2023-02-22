@@ -1,19 +1,114 @@
 @charset "UTF-8";
+/*
+cores a serem usadas:
+ 
+
+*/
+:root{
+    --cor1: #012626;
+    --cor2: #04BFAD;
+    --cor3: #038C7F;
+    --cor4: #027368;
+    --cor5: #01403A;
+}
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-section > div#conta{
-    background-color: aquamarine;
-    width: ;
+main{
+    height: 100vh;
+    width: 100vw;
     
+}section#login{
+    
+    height: 45vh;
+    
+    
+
+}
+section#login > div#conta{
+    background-color: #027368;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    margin-top: -12px;
+    width: 300px;
+    height: 45vh;
+    border-radius: 6px;  
+    
+    
+}
+section#signin{
+    
+    height: 55vh;
+    
+}
+section#signin > div#criar_conta{
+    
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    margin-top: 10px;
+    width: 300px;
+    height: 50vh;
+    border-radius: 6px;
+    padding-bottom: 20px;
+    background-color: #41fdde;
+    
+}
+ #image{
+    background-image: url(img/chevron.png);
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 61px;
+    margin: auto;
+    
+}
+section#login > div#conta > h1{
+    text-align: center;
+}
+section#login > div#conta > p{
+    text-align: center;
+}
+
+#user_login{
+    position: absolute;
+    top: 45.7%;
+    left: 14.5%;
+}
+#inome{
+    height: 30px;
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
 }
 #icon{
     cursor: pointer;
+    position: absolute;
+    left: 13%;
+    top: 57.5%;
+    font-size: 12px;
+    
 }
 #icon.hide{
     background: url(img/hidden.png);
     cursor: pointer;
+}
+#isenha{
+    height: 30px;
+    width: 55%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 23%;
+    border: none;
+    
+    
 }
