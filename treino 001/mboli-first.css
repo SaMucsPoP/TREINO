@@ -72,32 +72,59 @@ section#login > div#conta > p{
     text-align: center;
 }
 
-#user_login{
-    margin-left: 5px;
-}
-#inome{
-    height: 30px;
-    width: 55%;
-    margin-left: 21%;
+div#nome_login{
+    background-color: #000000;
+    margin: auto;
     margin-top: 5px;
+    width: 200px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#user_login{
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;    
+}
+div#nome_login > input#inome{
+    height: 30px;
+    width: 80%;
     border-radius: 5px;
     border: none;
 }
 #icon{
-    cursor: pointer;
-    margin: ;    
+    cursor: pointer; 
+    float: right;
+    margin-top: -25.5px;
+    margin-right: 6px;   
 }
 #icon.hide{
     background: url(img/hidden.png);
     cursor: pointer;
 }
-#isenha{
-    height: 30px;
-    width: 55%;
-    border-radius: 5px;
+div#senha_login{
+    background-color: #000000;
+    margin: auto;
     margin-top: 5px;
-    margin-left: 21%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 3px;
+}
+input#isenha{
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
     border: none;
-    
-    
+}
+#lembrar_de_mim{
+    margin-top: 15px;
+    text-align: center;
+}
+#wellcome_signin{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    height: 55px;
+    width: 65%;
 }
