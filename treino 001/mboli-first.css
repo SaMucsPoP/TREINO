@@ -30,10 +30,11 @@ section#login > div#conta{
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
     
     margin-top: -12px;
-    width: 300px;
-    height: 45vh;
+    width: 330px;
+    height: 43.4vh;
     border-radius: 6px;  
     
     
@@ -49,6 +50,7 @@ section#signin > div#criar_conta{
     left: 50%;
     transform: translate(-50%, -50%);
     
+    
     margin-top: 10px;
     width: 300px;
     height: 50vh;
@@ -63,6 +65,7 @@ section#signin > div#criar_conta{
     width: 65px;
     height: 61px;
     margin: auto;
+    margin-top: 3px;
     
 }
 section#login > div#conta > h1{
@@ -118,21 +121,26 @@ input#isenha{
     border: none;
 }
 #lembrar_de_mim{
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
 }
 #link{
-    background-color: #000000;
     display: block;
     text-align: center;
+    text-decoration: none;
+    color: white;
     width: 50%;
-    margin-left: 77px;
-    margin-top: 15px;
+    margin-left: 82.6px;
+    margin-top: 5px;
+    
 }
 #wellcome_signin{
+    cursor: pointer;
     display: block;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 15px;
     height: 55px;
     width: 65%;
+    border-radius: 5px;
+    border: none;
 }
