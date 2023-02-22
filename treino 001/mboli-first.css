@@ -34,7 +34,7 @@ section#login > div#conta{
     
     margin-top: -12px;
     width: 330px;
-    height: 43.4vh;
+    height: 45vh;
     border-radius: 6px;  
     
     
@@ -65,7 +65,7 @@ section#signin > div#criar_conta{
     width: 65px;
     height: 61px;
     margin: auto;
-    margin-top: 3px;
+    margin-top: 1vh;
     
 }
 section#login > div#conta > h1{
@@ -138,8 +138,8 @@ input#isenha{
     cursor: pointer;
     display: block;
     margin: auto;
-    margin-top: 15px;
-    height: 55px;
+    margin-top: 12px;
+    height: 35px;
     width: 65%;
     border-radius: 5px;
     border: none;
