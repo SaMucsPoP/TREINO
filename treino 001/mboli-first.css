@@ -121,6 +121,14 @@ input#isenha{
     margin-top: 15px;
     text-align: center;
 }
+#link{
+    background-color: #000000;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-left: 77px;
+    margin-top: 15px;
+}
 #wellcome_signin{
     display: block;
     margin: auto;
