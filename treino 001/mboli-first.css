@@ -21,12 +21,8 @@ main{
     height: 100vh;
     width: 100vw;
     
-}section#login{
-    
+}section#login{  
     height: 45vh;
-    
-    
-
 }
 section#login > div#conta{
     background-color: #027368;
@@ -43,7 +39,6 @@ section#login > div#conta{
     
 }
 section#signin{
-    
     height: 55vh;
     
 }
@@ -78,25 +73,19 @@ section#login > div#conta > p{
 }
 
 #user_login{
-    position: absolute;
-    top: 45.7%;
-    left: 14.5%;
+    margin-left: 5px;
 }
 #inome{
     height: 30px;
     width: 55%;
-    margin-left: 23%;
+    margin-left: 21%;
     margin-top: 5px;
     border-radius: 5px;
     border: none;
 }
 #icon{
     cursor: pointer;
-    position: absolute;
-    left: 13%;
-    top: 57.5%;
-    font-size: 12px;
-    
+    margin: ;    
 }
 #icon.hide{
     background: url(img/hidden.png);
@@ -107,7 +96,7 @@ section#login > div#conta > p{
     width: 55%;
     border-radius: 5px;
     margin-top: 5px;
-    margin-left: 23%;
+    margin-left: 21%;
     border: none;
     
     
