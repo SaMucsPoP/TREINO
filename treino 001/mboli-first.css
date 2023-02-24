@@ -15,7 +15,7 @@ cores a serem usadas:
 
 :root{
     --cor1: #012626;
-    --cor2: #00ffe5;
+    --cor2: #6BD6B9;
     --cor3: #038C7F;
     --cor4: #027368;
     --cor5: #01403A;
@@ -145,10 +145,14 @@ input#isenha{
     width: 80%;
     border-radius: 5px;
     border: none;
+    background-color: #c7f8f3;
 }
 #lembrar_de_mim{
-    margin-top: 10px;
+    color: var(--cor2);
     text-align: center;
+}
+#lembrar_de_mim > label{
+    font-family:'Poppins', sans-serif;
 }
 #link{
     display: block;
@@ -156,8 +160,9 @@ input#isenha{
     text-decoration: none;
     color: white;
     width: 50%;
+    font-size: 0.8em;
     margin-left: 82.6px;
-    margin-top: 5px;
+    margin-top: 0px;
     
 }
 #wellcome_signin{
