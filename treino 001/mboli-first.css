@@ -4,9 +4,18 @@ cores a serem usadas:
  
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+
+@font-face {
+    
+    font-family: 'streech';
+    src: url(fontes/StretchPro.otf) format('opentype');
+}
+
 :root{
     --cor1: #012626;
-    --cor2: #04BFAD;
+    --cor2: #00ffe5;
     --cor3: #038C7F;
     --cor4: #027368;
     --cor5: #01403A;
@@ -17,6 +26,12 @@ cores a serem usadas:
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body,html{
+    background: url(img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 main{
     height: 100vh;
     width: 100vw;
@@ -25,12 +40,14 @@ main{
     height: 45vh;
 }
 section#login > div#conta{
-    background-color: #027368;
+    background: linear-gradient(45deg, #081d1b83,#3b797283 60%, #43a198);
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    border: 2px solid #464e4d70;
+    
     
     margin-top: -12px;
     width: 330px;
@@ -38,6 +55,16 @@ section#login > div#conta{
     border-radius: 6px;  
     
     
+}
+div#conta > h1{
+    font-family: 'streech';
+    font-size: 1.5em;
+    color: #6BD6B9;
+    text-shadow: 5px 2px 5px var(--cor1);
+}
+div#conta > p{
+    font-family:'Poppins', sans-serif;
+    font-size: 0.9em;
 }
 section#signin{
     height: 55vh;
@@ -60,12 +87,12 @@ section#signin > div#criar_conta{
     
 }
  #image{
-    background-image: url(img/chevron.png);
+    background-image: url(img/double-check.png);
     background-repeat: no-repeat;
-    width: 65px;
-    height: 61px;
+    height: 64px;
+    width: 64px;
     margin: auto;
-    margin-top: 1vh;
+    
     
 }
 section#login > div#conta > h1{
@@ -78,7 +105,6 @@ section#login > div#conta > p{
 div#nome_login{
     background-color: #000000;
     margin: auto;
-    margin-top: 5px;
     width: 200px;
     padding: 3px;
     border-radius: 5px;
