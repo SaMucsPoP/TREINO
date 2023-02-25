@@ -59,7 +59,7 @@ section#login > div#conta{
     
     margin-top: -12px;
     width: 330px;
-    height: 318px;
+    height: 330px;
     border-radius: 6px;  
     
     
@@ -102,7 +102,7 @@ section#signin > div#criar_conta{
     margin-bottom: auto;
     margin-top: 10px;
     width: 330px;
-    height: 350px;
+    height: 390px;
     border-radius: 6px;
     padding-bottom: 20px;
 
@@ -208,7 +208,7 @@ input#isenha{
     cursor: pointer;
     display: block;
     margin: auto;
-    margin-top: 12px;
+    margin-top: 25px;
     height: 35px;
     width: 65%;
     border-radius: 5px;
@@ -230,6 +230,7 @@ input#isenha{
 #social > p{
     
     margin-left: 65px;
+    margin-top: 10px;
     color: var(--cor3);
     font-family: 'Poppins', sans-serif;
     font-size: .8em;
@@ -347,6 +348,7 @@ input#isenha{
     background: linear-gradient(45deg,#022525, var(--cor3),var(--cor12)105%);
     display: block;
     margin: auto;
+    margin-top: 20px;
     height: 35px;
     width: 65%;
     border: none;
