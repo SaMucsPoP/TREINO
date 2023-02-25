@@ -222,9 +222,7 @@ input#isenha{
 
 }
 #social > p{
-    text-align: left;
-    font-size: 1em;
-    margin-top: 42px;
+    margin-top: 40px;
     margin-left: 70px;
     color: var(--cor3);
     font-family: 'Poppins', sans-serif;
@@ -258,11 +256,6 @@ input#isenha{
     height: 40px;
     border-radius: 5px;
 }
-#criarnome > label{
-    font-family: 'Poppins', sans-serif;
-    font-size: .9em;
-    margin-left: 2px;
-}
 #criarmail{
     background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
     box-shadow: 3px 2px 6px #0e2b28;
@@ -271,11 +264,6 @@ input#isenha{
     width: 280px;
     height: 40px;
     border-radius: 5px;
-}
-#criarmail > label{
-    font-family: 'Poppins', sans-serif;
-    font-size: .9em;
-    margin-left: 2px;
 }
 #criarsenha{
     background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
@@ -286,11 +274,7 @@ input#isenha{
     height: 40px;
     border-radius: 5px;
 }
-#criarsenha > label{
-    font-family: 'Poppins', sans-serif;
-    font-size: .9em;
-    margin-left: 2px;
-}
+
 #Inome{
     width: 85%;
     height: 30px;
