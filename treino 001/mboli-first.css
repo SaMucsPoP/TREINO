@@ -292,35 +292,29 @@ input#isenha{
     margin-left: 2px;
 }
 #Inome{
-    position: absolute;
+    width: 85%;
     height: 30px;
-    width: 70%;
-    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 4px;
     border: none;
-    background-color: #ebfaf8;
-    left: 9%;
-    top: 34.6%;
 }
 #Imail{
-    position: absolute;
+    width: 85%;
     height: 30px;
-    width: 70%;
-    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 4px;
     border: none;
-    background-color: #ebfaf8;
-    left: 9%;
-    top: 48%;
     
 }
 #Isenha{
-    position: absolute;
+    width: 85%;
     height: 30px;
-    width: 70%;
-    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 4px;
     border: none;
-    background-color: #ebfaf8;
-    left: 9%;
-    top: 62%;
     
     
 }
