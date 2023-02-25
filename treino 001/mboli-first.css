@@ -234,7 +234,7 @@ input#isenha{
     width: 24px;
     height: 24px;
     position: absolute;
-    top:85%;
+    top:88%;
     left: 35%;
     transform: translate(50%, 50%);   
 }
@@ -244,49 +244,70 @@ input#isenha{
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 85%;
+    top: 88%;
     left:47%;
     transform: translate(50%, 50%);    
 }#criarnome{
     background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
     box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
-    margin-bottom: 11px;
+    margin-bottom: 7px;
+    margin-top: 3px;
     width: 280px;
-    height: 35px;
-    padding: 3px;
+    height: 40px;
     border-radius: 5px;
+}
+#criarnome > label{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+    margin-left: 2px;
 }
 #criarmail{
     background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
     box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
-    margin-bottom: 11px;
-    width: 290px;
-    height: 35px;
-    padding: 3px;
+    margin-bottom: 7px;
+    width: 280px;
+    height: 40px;
     border-radius: 5px;
+}
+#criarmail > label{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+    margin-left: 2px;
 }
 #criarsenha{
     background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
     box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
-    margin-bottom: 11px;
-    width: 290px;
-    height: 35px;
+    margin-bottom: 7px;
+    width: 280px;
+    height: 40px;
     border-radius: 5px;
+}
+#criarsenha > label{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+    margin-left: 2px;
 }
 #Inome{
     height: 30px;
-    width: 70%;
+    width: 60%;
     border-radius: 5px;
     border: none;
     background-color: #ebfaf8;
     
 }
 #Imail{
-    height: 20px;
-    width: 70%;
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    background-color: #ebfaf8;
+}
+#Isenha{
+    height: 30px;
+    width: 60%;
     border-radius: 5px;
     border: none;
     background-color: #ebfaf8;
