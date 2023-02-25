@@ -223,7 +223,7 @@ input#isenha{
 }
 #social > p{
     margin-top: 40px;
-    margin-left: 70px;
+    margin-left: 75px;
     color: var(--cor3);
     font-family: 'Poppins', sans-serif;
 }
@@ -233,9 +233,7 @@ input#isenha{
     width: 24px;
     height: 24px;
     position: absolute;
-    top:88%;
-    left: 49%;
-    transform: translate(50%, 50%);   
+    left: 170px; 
 }
 #social > #img2{
     cursor: pointer;
@@ -243,9 +241,7 @@ input#isenha{
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 88%;
-    left:60%;
-    transform: translate(50%, 50%);    
+    left: 205px;
 }#criarnome{
     background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
     box-shadow: 3px 2px 6px #0e2b28;
