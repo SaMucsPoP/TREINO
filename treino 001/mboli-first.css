@@ -137,7 +137,7 @@ div#nome_login{
     box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
     margin-bottom: 11px;
-    width: 200px;
+    width: 250px;
     padding: 3px;
     border-radius: 5px;
 }
@@ -145,7 +145,7 @@ div#nome_login{
 #user_login{
     float: right;
     margin-top: 7px;
-    margin-right: 10px;    
+    margin-right: 15px;    
 }
 div#nome_login > input#inome{
     height: 30px;
@@ -158,7 +158,7 @@ div#nome_login > input#inome{
     cursor: pointer; 
     float: right;
     margin-top: -25.5px;
-    margin-right: 6px;   
+    margin-right: 10px;   
 }
 #icon.hide{
     background: url(img/hidden.png);
@@ -171,7 +171,7 @@ div#senha_login{
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
-    width: 200px;
+    width: 250px;
     padding: 3px;
 }
 input#isenha{
@@ -214,6 +214,7 @@ input#isenha{
     border-radius: 5px;
     border: none;
     transition: .5s;
+    font-size: 1em;
 }
 #wellcome_signin:hover{
     background: linear-gradient(45deg, #02383860, #6BD6B9);
@@ -224,11 +225,10 @@ input#isenha{
 }
 #social{
     margin: auto;
-
 }
 
 #social > p{
-    margin-top: 25px;
+    
     margin-left: 65px;
     color: var(--cor3);
     font-family: 'Poppins', sans-serif;
@@ -326,4 +326,16 @@ input#isenha{
     color: var(--cor2);
     font-family: 'Poppins', sans-serif;
     text-shadow: 2px 2px 3px var(--cor1);
+}
+#CriarConta{
+    background: linear-gradient(45deg, var(--cor1), var(--cor3),var(--cor12)80%);
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 65%;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-family: 'Poppins', 'sans-serif';
+    cursor: pointer;
 }
