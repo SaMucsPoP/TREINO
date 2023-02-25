@@ -254,7 +254,7 @@ input#isenha{
     height: 24px;
     left: 205px;
 }#criarnome{
-    background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
+    background: linear-gradient(90deg,#698f87c5, #133131a8 50%, #64aaa7de);
     box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
     margin-bottom: 7px;
@@ -263,8 +263,16 @@ input#isenha{
     height: 40px;
     border-radius: 5px;
 }
+#criarnomeimg{
+    background: url(img/criarnome.png);
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 7px;
+}
 #criarmail{
-    background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
+    background: linear-gradient(90deg,#698f87c5, #133131a8 40%, #64aaa7de);
     box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
     margin-bottom: 7px;
@@ -272,8 +280,16 @@ input#isenha{
     height: 40px;
     border-radius: 5px;
 }
+#imgemail{
+    background: url(img/email.png);
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-right: 7px;
+    margin-top: 7px; 
+}
 #criarsenha{
-    background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
+    background: linear-gradient(90deg,#698f87c5, #133131a8 50%, #64aaa7de);
     box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
     margin-bottom: 7px;
@@ -328,7 +344,7 @@ input#isenha{
     text-shadow: 2px 2px 3px var(--cor1);
 }
 #CriarConta{
-    background: linear-gradient(45deg, var(--cor1), var(--cor3),var(--cor12)80%);
+    background: linear-gradient(45deg,#022525, var(--cor3),var(--cor12)105%);
     display: block;
     margin: auto;
     height: 35px;
@@ -338,4 +354,11 @@ input#isenha{
     font-size: 1em;
     font-family: 'Poppins', 'sans-serif';
     cursor: pointer;
+    transition: .5s;
+}
+#CriarConta:hover{
+    background: linear-gradient(45deg, #07777748, #038c7e73 ,var(--cor12)90%);
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    color: white;
+    transition: .5s;
 }
