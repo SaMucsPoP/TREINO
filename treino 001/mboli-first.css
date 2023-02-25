@@ -81,6 +81,7 @@ div#conta > p{
 }
 section#signin{
     height: 55vh;
+   
     
 }
 #criaruser{
@@ -98,10 +99,10 @@ section#signin > div#criar_conta{
     left: 50%;
     transform: translate(-50%, -50%);
     
-    
+    margin-bottom: auto;
     margin-top: 10px;
     width: 330px;
-    height: 320px;
+    height: 350px;
     border-radius: 6px;
     padding-bottom: 20px;
 
@@ -222,11 +223,10 @@ input#isenha{
 }
 #social > p{
     text-align: center;
-    font-size: .9em;
-    margin-top: 30px;
+    font-size: .8em;
+    margin-top: 55px;
     color: #d2fff3;
-    text-shadow:2px 0px 5px #a0f7df;
-    font-family: ;
+    font-family: 'Poppins', sans-serif;
 }
 #social > #img1{
     cursor: pointer;
@@ -234,7 +234,7 @@ input#isenha{
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 85%;
+    top:78%;
     left: 35%;
     transform: translate(50%, 50%);   
 }
@@ -244,7 +244,24 @@ input#isenha{
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 85%;
+    top: 78%;
     left:47%;
     transform: translate(50%, 50%);    
+}#criarnome{
+
+}
+
+#Inome{
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    background-color: #ebfaf8;
+}
+#Imail{
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    background-color: #ebfaf8;
 }
