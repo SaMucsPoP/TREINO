@@ -59,7 +59,7 @@ section#login > div#conta{
     
     margin-top: -12px;
     width: 330px;
-    height: 300px;
+    height: 318px;
     border-radius: 6px;  
     
     
@@ -92,7 +92,7 @@ section#signin{
     margin-top: 5px;
 }
 section#signin > div#criar_conta{
-    background: linear-gradient(45deg, #01203083,#027368b9 60%, #9aeba3);
+    background: linear-gradient(45deg, #01203083,#027368b9 60%, var(--cor12) 120%);
     position: absolute;
     border: 2px solid rgba(255, 255, 255, 0.171);
     top: 72%;
@@ -222,10 +222,11 @@ input#isenha{
 
 }
 #social > p{
-    text-align: center;
-    font-size: .8em;
-    margin-top: 20px;
-    color: #d2fff3;
+    text-align: left;
+    font-size: 1em;
+    margin-top: 42px;
+    margin-left: 70px;
+    color: var(--cor3);
     font-family: 'Poppins', sans-serif;
 }
 #social > #img1{
@@ -235,7 +236,7 @@ input#isenha{
     height: 24px;
     position: absolute;
     top:88%;
-    left: 35%;
+    left: 49%;
     transform: translate(50%, 50%);   
 }
 #social > #img2{
@@ -245,7 +246,7 @@ input#isenha{
     width: 24px;
     height: 24px;
     top: 88%;
-    left:47%;
+    left:60%;
     transform: translate(50%, 50%);    
 }#criarnome{
     background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
@@ -291,24 +292,45 @@ input#isenha{
     margin-left: 2px;
 }
 #Inome{
+    position: absolute;
     height: 30px;
-    width: 60%;
+    width: 70%;
     border-radius: 5px;
     border: none;
     background-color: #ebfaf8;
-    
+    left: 9%;
+    top: 34.6%;
 }
 #Imail{
+    position: absolute;
     height: 30px;
-    width: 60%;
+    width: 70%;
     border-radius: 5px;
     border: none;
     background-color: #ebfaf8;
+    left: 9%;
+    top: 48%;
+    
 }
 #Isenha{
+    position: absolute;
     height: 30px;
-    width: 60%;
+    width: 70%;
     border-radius: 5px;
     border: none;
     background-color: #ebfaf8;
+    left: 9%;
+    top: 62%;
+    
+    
+}
+#locksenha{
+    background: url(img/lock.png);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
 }
