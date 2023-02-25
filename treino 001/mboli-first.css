@@ -20,6 +20,14 @@ cores a serem usadas:
     --cor4: #027368;
     --cor5: #01403A;
 }
+:root{
+    /*Segunda paleta a ser base de exemplo*/
+    --cor7: #012030;
+    --cor8: #13678A;
+    --cor9: #45C4B0;
+    --cor10: #9AEBA3; 
+    --cor12: #DAFDBA;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -59,32 +67,53 @@ section#login > div#conta{
 div#conta > h1{
     font-family: 'streech';
     font-size: 1.5em;
-    color: #6BD6B9;
+    color: #d2fff3;
     text-shadow: 5px 2px 5px var(--cor1);
+    
 }
 div#conta > p{
     font-family:'Poppins', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: #d2fff3;
+    text-shadow:2px 0px 5px #a0f7df;
 }
 section#signin{
     height: 55vh;
     
 }
+#criaruser{
+    background: url(img/userCreate.png);
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    margin-top: 5px;
+}
 section#signin > div#criar_conta{
-    
+    background: linear-gradient(45deg, #01203083,#027368b9 60%, #9aeba3);
     position: absolute;
+    border: 2px solid rgba(255, 255, 255, 0.171);
     top: 72%;
     left: 50%;
     transform: translate(-50%, -50%);
     
     
     margin-top: 10px;
-    width: 300px;
+    width: 330px;
     height: 50vh;
     border-radius: 6px;
     padding-bottom: 20px;
-    background-color: #41fdde;
+
     
+}
+div#criar_conta > h1{
+    text-align: center;
+    margin-top: 6px;
+    font-family: 'streech';
+    font-size: 1.7em;
+    color: #d2fff3;
+    text-shadow: 5px 2px 7px var(--cor1);
 }
  #image{
     background-image: url(img/double-check.png);
@@ -103,8 +132,10 @@ section#login > div#conta > p{
 }
 
 div#nome_login{
-    background-color: #000000;
+    background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
+    box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
+    margin-bottom: 11px;
     width: 200px;
     padding: 3px;
     border-radius: 5px;
@@ -120,6 +151,7 @@ div#nome_login > input#inome{
     width: 80%;
     border-radius: 5px;
     border: none;
+    background-color: #ebfaf8;
 }
 #icon{
     cursor: pointer; 
@@ -132,7 +164,8 @@ div#nome_login > input#inome{
     cursor: pointer;
 }
 div#senha_login{
-    background-color: #000000;
+    background: linear-gradient(90deg,#00ffe5cc, #133131a8 50%, #94fff473);
+    box-shadow: 3px 2px 6px #0e2b28;
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -145,7 +178,7 @@ input#isenha{
     width: 80%;
     border-radius: 5px;
     border: none;
-    background-color: #c7f8f3;
+    background-color: #ebfaf8;
 }
 #lembrar_de_mim{
     color: var(--cor2);
@@ -153,6 +186,7 @@ input#isenha{
 }
 #lembrar_de_mim > label{
     font-family:'Poppins', sans-serif;
+    font-size: 0.9em;
 }
 #link{
     display: block;
@@ -166,6 +200,9 @@ input#isenha{
     
 }
 #wellcome_signin{
+    background: linear-gradient(45deg, #046464, #6BD6B9);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 2px 2px var(--cor1);
     cursor: pointer;
     display: block;
     margin: auto;
@@ -174,4 +211,12 @@ input#isenha{
     width: 65%;
     border-radius: 5px;
     border: none;
+    transition: .5s;
+}
+#wellcome_signin:hover{
+    background: linear-gradient(45deg, #02383860, #6BD6B9);
+    color: white;
+    border:2px solid rgba(255, 255, 255, 0.192);
+    transition: .5s;
+
 }
