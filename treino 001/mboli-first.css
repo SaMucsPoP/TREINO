@@ -59,7 +59,7 @@ section#login > div#conta{
     
     margin-top: -12px;
     width: 330px;
-    height: 45vh;
+    height: 300px;
     border-radius: 6px;  
     
     
@@ -101,7 +101,7 @@ section#signin > div#criar_conta{
     
     margin-top: 10px;
     width: 330px;
-    height: 50vh;
+    height: 320px;
     border-radius: 6px;
     padding-bottom: 20px;
 
@@ -219,4 +219,32 @@ input#isenha{
     border:2px solid rgba(255, 255, 255, 0.192);
     transition: .5s;
 
+}
+#social > p{
+    text-align: center;
+    font-size: .9em;
+    margin-top: 30px;
+    color: #d2fff3;
+    text-shadow:2px 0px 5px #a0f7df;
+    font-family: ;
+}
+#social > #img1{
+    cursor: pointer;
+    background: url(img/facebook.png);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    transform: translate(50%, 50%);   
+}
+#social > #img2{
+    cursor: pointer;
+    background: url(img/twitter.png);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 85%;
+    left:47%;
+    transform: translate(50%, 50%);    
 }
