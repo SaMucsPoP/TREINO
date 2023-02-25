@@ -202,7 +202,7 @@ input#isenha{
     
 }
 #wellcome_signin{
-    background: linear-gradient(45deg, #046464, #6BD6B9);
+    background: linear-gradient(45deg, #052727, #61f7cf);
     font-family: 'Poppins', sans-serif;
     box-shadow: 2px 2px 2px var(--cor1);
     cursor: pointer;
@@ -217,7 +217,7 @@ input#isenha{
     font-size: 1em;
 }
 #wellcome_signin:hover{
-    background: linear-gradient(45deg, #02383860, #6BD6B9);
+    background: linear-gradient(45deg, #02383860,var(--cor9), var(--cor12)105%);
     color: white;
     border:2px solid rgba(255, 255, 255, 0.192);
     transition: .5s;
@@ -357,7 +357,7 @@ input#isenha{
     transition: .5s;
 }
 #CriarConta:hover{
-    background: linear-gradient(45deg, #07777748, #038c7e73 ,var(--cor12)90%);
+    background: linear-gradient(45deg, #0777771e, #038c7e36 ,var(--cor12)90%);
     border: 1px solid rgba(255, 255, 255, 0.219);
     color: white;
     transition: .5s;
