@@ -45,7 +45,9 @@ main{
     width: 100vw;
     
 }section#login{  
-    height: 45vh;
+    height: 340px;
+    
+    
 }
 section#login > div#conta{
     background: linear-gradient(45deg, #081d1b83,#3b797283 60%, #43a198);
@@ -57,7 +59,7 @@ section#login > div#conta{
     border: 2px solid #464e4d70;
     
     
-    margin-top: -12px;
+    margin-top: -15px;
     width: 330px;
     height: 330px;
     border-radius: 6px;  
@@ -80,9 +82,7 @@ div#conta > p{
     text-shadow:2px 0px 5px #a0f7df;
 }
 section#signin{
-    height: 55vh;
-   
-    
+    height: 55vh;  
 }
 #criaruser{
     background: url(img/userCreate.png);
