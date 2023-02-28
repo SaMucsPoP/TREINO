@@ -85,7 +85,6 @@ section#signin{
     height: 55vh;  
 }
 #criaruser{
-    background: url(img/userCreate.png);
     width: 64px;
     height: 64px;
     margin: auto;

@@ -1,0 +1,103 @@
+:root{
+    --cor1: #012626;
+    --cor2: #6BD6B9;
+    --cor3: #038C7F;
+    --cor4: #027368;
+    --cor5: #01403A;
+}
+:root{
+    /*Segunda paleta a ser base de exemplo*/
+    --cor7: #012030;
+    --cor8: #13678A;
+    --cor9: #45C4B0;
+    --cor10: #9AEBA3; 
+    --cor12: #DAFDBA;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+body,html{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#login > div#conta{
+    display: block;
+    top: 620px;
+    margin: auto;
+}
+section#signin > div#criar_conta{
+    display: block;
+    top: 230px;
+    margin: auto;
+    width: 95vw;
+    height: 400px;
+
+    
+}
+section#signin h1{
+    float: left;
+    margin-left: 75px;
+    font-size: 2.5em;
+}
+div#criaruser{
+    margin-left: 205px;
+}
+div#criarnome{
+    margin-top: 75px;
+    margin-left: 20px;
+    width: 470px;
+    height: 47px;
+}
+#Inome{
+    height: 100%;
+    width: 88%;
+    margin-top: -0.5px;
+    margin-left: 1px;
+    border-radius: 2px;
+    background-color: #d2fcd7;
+    
+}
+div#criarmail{
+    margin-left: 20px;
+    width: 470px;
+    height: 47px;
+}
+#Imail{
+    height: 100%;
+    width: 88%;
+    margin-top: -0.5px;
+    margin-left: 1px;
+    border-radius: 2px;
+    background-color: #d2fcd7;
+}
+#criarsenha{
+    margin-left: 20px;
+    width: 470px;
+    height: 47px;
+}
+#Isenha{
+    height: 100%;
+    width: 88%;
+    margin-top: -0.5px;
+    margin-left: 1px;
+    border-radius: 2px;
+    background-color: #d2fcd7;
+}
+#Msenha{
+    margin-left: -350px;
+}
+#CriarConta{
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 40px;
+    width: 475px;
+}
+#social{
+    float: right;
+    margin-top: -6px;
+    margin-right: 510px;
+}
